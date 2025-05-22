@@ -3,7 +3,7 @@ package dukes.ai;
 import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
-public class JakartaGTP {
+public class JakartaGPT {
 
     private final AwesomeJakartaGPTModel awesomeModel = new AwesomeJakartaGPTModel();
 
