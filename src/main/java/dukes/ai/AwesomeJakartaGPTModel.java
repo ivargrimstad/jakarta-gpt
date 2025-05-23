@@ -1,8 +1,11 @@
 package dukes.ai;
 
+import jakarta.enterprise.context.Dependent;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Dependent
 public class AwesomeJakartaGPTModel {
 
     private static final Map<String, String> model = new HashMap<>();
